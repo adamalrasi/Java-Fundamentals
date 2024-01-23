@@ -1,6 +1,7 @@
 import java.lang.reflect.Array;
 import java.util.List;
 import java.util.Map;
+import java.util.*;
 
 //TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
 // click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
@@ -113,8 +114,131 @@ public class Main {
             count++;
         } while (count <= 10);
 
+
+
+        Random random = new Random();
+        System.out.println(random.nextInt(10)+1);
+        Scanner scan = new Scanner(System.in);
+        boolean gameContinue = true;
+        int randomNum = random.nextInt(100) + 1;
+        int guess = scan.nextInt();
+        System.out.println(guess);
+        while(gameContinue){
+            if(randomNum == guess){
+                System.out.println("Well done");
+            } else if(randomNum > guess){
+                System.out.println("Too low");
+            } else if(randomNum < guess) {
+                System.out.println("Too High");
+            }
+            gameContinue = false;
+
+        }
+
+
+
+//        Random random = new Random();
+//        Scanner scan = new Scanner(System.in);
+//
+//        boolean gameContinue = true;
+//        int randomNumb = random.nextInt(10)+1;
+//
+//        while(gameContinue){
+//            System.out.println("Please guess a number🙌 from 1 to 10: ");
+//            int guess = scan.nextInt();
+//            if(guess <= 0 || guess > 10){
+//                System.out.println("Pick number from 1 to 10");
+//            }
+//            if(guess > randomNumb){
+//                System.out.println("Too high👆");
+//            } else if(guess < randomNumb){
+//                System.out.println("Too Low👇");
+//            } else {
+//                System.out.println("Well Done🥳");
+//                gameContinue = false;
+//            }
+//        }
+
+        int[] intArr = {1, 4, 6, 8, 234, 456, 234243, 34};
+        ArrayList<String> nameList = new ArrayList<String>();
+        nameList.add("Adam");
+        nameList.add("Tom");
+        nameList.add("Chloe");
+        nameList.add("Abdul");
+
+        // for each loop
+        for(int element: intArr){
+            System.out.println(element);
+        }
+        for(String element: nameList){
+            System.out.println(element);
+        }
+
+        // for loop
+        for(int i = 0; i < intArr.length; i++){
+            System.out.println("idx numb: " + i + " is " + intArr[i]);
+        }
+
+        for(int i = 0; i < nameList.size(); i++){
+            System.out.println("idx numb: " + i + " is " + nameList.get(i));
+        }
+
+        Scanner scan = new Scanner(System.in);
+
+        System.out.println("A: ");
+        int a = scan.nextInt();
+        System.out.println("Operation: ");
+        String operator = scan.next();
+        System.out.println("B: ");
+        int b = scan.nextInt();
+
+        if(Objects.equals(operator, "+")){
+            System.out.println(add(a, b));
+        }
+        if(Objects.equals(operator, "/")){
+            System.out.println(divide(a, b));
+        }
+        if(Objects.equals(operator, "*")) {
+            System.out.println(multiple(a, b));
+        }
+        if(Objects.equals(operator, "-")) {
+            System.out.println(subtract(a, b));
+        }
+
+    public static Integer add(Integer a, Integer b){
+        return a + b;
+    }
+    public static Integer divide(Integer a, Integer b){
+        return a / b;
+    }
+    public static Integer subtract(Integer a, Integer b){
+        return a - b;
+    }
+    public static Integer multiple(Integer a, Integer b){
+        return a * b;
+    }
+
  */
 
 
+
     }
+
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
