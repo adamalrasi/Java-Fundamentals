@@ -1,5 +1,6 @@
 import java.lang.reflect.Array;
 import java.util.List;
+import java.util.Map;
 
 //TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
 // click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
@@ -71,7 +72,48 @@ public class Main {
         for(int num: myArrList){
             System.out.println(num);
         }
-        */
+
+
+//        java.util.HashMap<String, String> map = new java.util.HashMap<String, String>();
+//        map.put("Adam", "0753");
+//        map.put("Jane", "0332");
+//        map.put("Tim", "0832");
+//        map.put("Adam", "753");
+//        for(java.util.Map.Entry<String, String> element: map.entrySet()){
+//            System.out.println(element.getKey());
+//        }
+
+        java.util.HashMap<String, String> map = new java.util.HashMap<String, String>();
+        map.put("att", "94");
+        map.put("def", "71");
+        map.put("speed", "91");
+        map.remove("att");
+
+        for(Map.Entry<String, String> element: map.entrySet()){
+            System.out.println(element.getKey());
+            System.out.println(element.getValue());
+        }
+
+        boolean loopControl = true;
+        while(loopControl){
+
+        }
+
+        int count = 0;
+        while(count <= 10){
+            if(count % 2 == 0){
+            System.out.println(count);
+                }
+            count++;
+        }
+
+        int count = 0;
+        do {
+            System.out.println(count);
+            count++;
+        } while (count <= 10);
+
+ */
 
 
     }
