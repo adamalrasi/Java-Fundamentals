@@ -3,10 +3,13 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/CalAtt1/CalAtt1.iml" filepath="$PROJECT_DIR$/CalAtt1/CalAtt1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/CalAtt2/CalAtt2.iml" filepath="$PROJECT_DIR$/CalAtt2/CalAtt2.iml" />
       <module fileurl="file://$PROJECT_DIR$/Calculator/Calculator.iml" filepath="$PROJECT_DIR$/Calculator/Calculator.iml" />
       <module fileurl="file://$PROJECT_DIR$/HelloWorld/HelloWorld.iml" filepath="$PROJECT_DIR$/HelloWorld/HelloWorld.iml" />
       <module fileurl="file://$PROJECT_DIR$/Java-Fundamentals.iml" filepath="$PROJECT_DIR$/Java-Fundamentals.iml" />
       <module fileurl="file://$PROJECT_DIR$/Scrabble/Scrabble.iml" filepath="$PROJECT_DIR$/Scrabble/Scrabble.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ScrabbleAtt1/ScrabbleAtt1.iml" filepath="$PROJECT_DIR$/ScrabbleAtt1/ScrabbleAtt1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/guessGame/guessGame.iml" filepath="$PROJECT_DIR$/guessGame/guessGame.iml" />
     </modules>
   </component>
 </project>
